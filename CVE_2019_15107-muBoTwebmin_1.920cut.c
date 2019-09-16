@@ -41,31 +41,20 @@
 #include <netinet/in.h>
 #include <net/if.h>
 #include <arpa/inet.h>
-#include <fcntl.h>		// for open
-#include <unistd.h>		// for close
+#include <fcntl.h>
+#include <unistd.h>
 #include <getopt.h>
-#include <arpa/inet.h>
-#include <sys/time.h>
 #include <sys/time.h>
 #include <signal.h>
-#include <unistd.h>
 #include <netdb.h>
 #include <math.h>
 #include <sys/wait.h>
 #include <stdarg.h>
 #include <errno.h>
 #include <sys/stat.h>
-#include <fcntl.h>
 #include <strings.h>
-#include <stdlib.h>		// exit()
-#include <sys/socket.h>		// connect() socket()
-#include <unistd.h>		// close() read() write()
-#include <netdb.h>		// getaddrinfo()
-#include <sys/select.h>		// select()
+#include <sys/select.h>
 #include <sys/utsname.h>
-#include <stdio.h>		//printf
-#include <string.h>		//memset
-#include <errno.h>		//errno
 #include <ifaddrs.h>
 #include <netinet/ip.h>
 #include <sys/sysinfo.h>
